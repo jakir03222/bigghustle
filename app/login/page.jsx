@@ -42,6 +42,7 @@ export default function LoginPage() {
           localStorage.removeItem('userRole')
           localStorage.removeItem('userId')
           localStorage.removeItem('userData')
+          .0
           setError('Only admin can access this dashboard.')
           return
         }
